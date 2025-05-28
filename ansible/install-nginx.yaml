@@ -11,7 +11,7 @@
 
 
   - name: start nginx
-  ansible.builtin.service:
+    ansible.builtin.service:
     name: nginx
     state: started
     enabled: yes
